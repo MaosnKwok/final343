@@ -5,5 +5,5 @@ export default function Home() {
       <h2 className="text- 2x1 font-semibold text-gray-700 mb-1">Kwok, Mason</h2>
       <h3 classNmae="text- x1 text-gray-600">Spring 2025</h3>
     </>
-  );
+  )
 }
