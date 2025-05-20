@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Kwok, Mason Final",
+  title: "Lin, Genghui Final",
 };
 
 export default function RootLayout({ children }) {

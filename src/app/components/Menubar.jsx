@@ -1,10 +1,22 @@
+import Link from 'next/link'
+
 export default function Menubar() {
     return (
-      <u1>
-       <li>Home</li>
-       <li>Midterm Part I</li>
-       <li>Midterm Part II</li>
-      </u1>
+      <>
+        <ul>
+          <li>
+            <Link href='/'>Home</Link>
+          </li>
+          <li>
+            <a href='exam-part-one.vercel.app' target='_blank'>Midterm Part I - Expense</a>
+          </li>
+          <li>
+            <a href='www.qcstudentexam1.online' target='_blank'>Midterm Part II Site</a>
+          </li>
+          <li>
+            <Link href='/faq'>FAQ</Link>
+          </li>
+        </ul>
+      </>
     )
   }
-  
